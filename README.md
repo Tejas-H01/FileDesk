@@ -16,16 +16,19 @@ Deployed on Vercel : https://fiel-desk-mfwj602kt-tejashalvankar2006-8032s-projec
 
 ### Login Page
 Split-screen login interface with product hero and secure access form.
+![Login](login.png)
 login.png
 
 ### Projects Dashboard
 Track active sites, monitor progress, and manage project status.
-1.png
-2.png
+![Dashboard](1.png)
+![Dashboard](2.png)
 
 ### Project Cards
 Each project displays location, start date, workers on site, and completion progress.
-3.png
+![DPR Form](3.png)
+![DPR Form](4.png)
+
 
 ---
 

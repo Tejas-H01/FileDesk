@@ -1,16 +1,150 @@
-# React + Vite
+# ⚙️ FieldDesk — Construction Site Operations Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React.js web dashboard for construction site management — featuring project tracking, progress monitoring, and a clean operational interface for field teams.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🌐 Live Demo
+👉 View Live Demo
 
-## React Compiler
+Deployed on Vercel : https://fiel-desk-mfwj602kt-tejashalvankar2006-8032s-projects.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📸 Screenshots
+
+### Login Page
+Split-screen login interface with product hero and secure access form.
+login.png
+
+### Projects Dashboard
+Track active sites, monitor progress, and manage project status.
+1.png
+2.png
+
+### Project Cards
+Each project displays location, start date, workers on site, and completion progress.
+3.png
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React 18 | UI framework |
+| Vite | Build tool |
+| Tailwind CSS | Utility-first styling |
+| React Router v6 | Client-side routing |
+| Lucide React | Icon library |
+| Context API | Global state management |
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+Node.js v18+  
+npm v9+
+
+---
+
+## Installation
+
+Clone the repository
+
+git clone <your-repository-url>
+
+cd fielddesk
+
+Install dependencies
+
+npm install
+
+Start the development server
+
+npm run dev
+
+The app will run at:
+
+http://localhost:5173
+
+---
+
+# Test Credentials
+
+Email: test@test.com  
+Password: 123456
+
+---
+
+# ✅ Features Implemented
+
+✔ Vite + React 18 project setup  
+✔ Tailwind CSS styling system  
+✔ Blueprint-inspired dark UI theme  
+✔ Split-screen login interface  
+✔ Protected routing using authentication context  
+✔ Project dashboard with status tracking  
+✔ Search and filter functionality for projects  
+✔ Progress indicators for site completion  
+✔ Responsive layout across desktop and tablet  
+✔ Component-based architecture
+
+---
+
+# ⚠️ Known Limitations
+
+Authentication is mocked and only accepts the demo credentials shown above.
+
+Project data is currently hardcoded and not connected to a backend API.
+
+Dashboard actions simulate functionality but do not persist data.
+
+---
+
+# 📁 Project Structure
+
+fielddesk/
+
+├── node_modules/
+
+├── public/  
+│   ├── favicon.svg  
+│   └── icons.svg  
+
+├── src/  
+│   ├── assets/  
+│   ├── components/  
+│   ├── context/  
+│   ├── data/  
+│   ├── pages/  
+│   ├── utils/  
+│   ├── App.jsx  
+│   ├── index.css  
+│   └── main.jsx  
+
+├── .gitignore  
+├── eslint.config.js  
+├── index.html  
+├── LICENSE  
+├── package-lock.json  
+├── package.json  
+├── postcss.config.js  
+├── README.md  
+├── tailwind.config.js  
+└── vite.config.js  
+
+---
+
+# 👨‍💻 Author
+
+Tejas Halvankar
+
+GitHub: https://github.com/Tejas-H01
+
+---
+
+⭐ If you find this project useful, feel free to star the repository.
